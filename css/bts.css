@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500;1,700&display=swap');
 :root{
     --dark: #374151;
     --darker: #1F2937;
@@ -13,7 +14,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: fantasy;
+ font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -218,7 +219,7 @@ label{
         flex-direction: column;
     }
     h1{
-        font-size: 2em;
+        font-size: 1.25em;
     }
     #nt-submit{
         font-size: 1em;
@@ -229,5 +230,11 @@ label{
         margin-right: 0.5em;
         font-size: 1em;
     }
-    
+    .btn{
+        font-size: 1em;
+    }
+    #name{
+        font-size: 1em;
+
+    }
 }
